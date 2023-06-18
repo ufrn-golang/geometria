@@ -5,11 +5,8 @@
 ## Sumário
 
 - [Objetivos](#objetivo)
-- [Introdução](#introducao)
+- [Introdução](#introdução)
 - [Tarefas](#tarefas)
-  - [Tarefa 1](#tarefa-1)
-  - [Tarefa 2](#tarefa-2)
-  - [Tarefa 3](#tarefa-3)
 - [Requisitos](#requisitos)
 - [Orientações gerais](#orientações-gerais)
 - [Autoria e política de colaboração](#autoria-e-política-de-colaboração)
@@ -40,9 +37,21 @@ Três conceitos são de suma importância para o entendimento das Geometrias Pla
 
 As tabelas abaixo apresentam a definição das principais figuras geométricas planas e espaciais, bem como as fórmulas utilizadas para calcular as medidas de área, perímetro e volume. É importante notar que, pelo fato de as figuras geométricas planas serem definidas em um plano de duas dimensões, elas não possuem volume.
 
-| Figura | Definição | Área | Perímetro
+| Figura | Definição | Área | Perímetro |
+| ------ | --------- | ---- | --------- |
+| Triângulo | Figura fechada formada por três lados | $`A = \frac{base\ \times\ altura}{2}`$ | $`P = lado1 + lado2 + lado3`$ |
+| Retângulo | Figura fechada formada por quatro lados que formam ângulos retos (90º) | $`A = base\ \times\ altura`$ | $`P = 2\ \times\ (base + altura)`$ |
+| Quadrado | Figura fechada formada por quatro lados congruentes (isto é, de medidas iguais) que formam ângulos retos | $`A = lado^2`$ | $`P = 4\ \times\ lado`$ |
+| Círculo | Figura fechada por uma linha curva chamada circunferência | $`A = \pi\ \times\ r^2`$ | $`P = 2\ \times\ \pi\ \times\ r`$ |
 
-### Tarefa 1
+Observações:
+
+- Para este trabalho, deverá ser considerado um triângulo equilátero, no qual os três lados são congruentes.
+- O perímetro de um círculo é chamado de comprimento da circunferência. &pi; é uma constante definida com o valor aproximado de 3,1415 e *r* é a medida do raio do círculo, isto é, a distância entre o centro e a extremidade do círculo.
+- Para este trabalho, deverá ser considerada uma pirâmide com base quadrangular, ou seja, contendo uma base formando um quadrado e quatro faces laterais triangulares.
+- A área lateral de uma pirâmide é dada pela soma das áreas de todas as faces laterais triangulares.
+
+## Tarefas
 
 A primeira tarefa deste trabalho consiste em implementar um programa chamado `nascimentos` que recebe como entrada, via linha de comando, o arquivo de texto [`Nascimentos_RN.csv`](Nascimentos_RN.csv) disponível neste repositório. Esse arquivo, no formato CSV, contém os números de nascidos vivos em cada município para cada ano contabilizado. Cada linha do arquivo refere-se a um município e os números de nascimentos em cada ano são separados por vírgulas. Enquanto o arquivo de entrada for sendo lido, os dados de cada município deverão ser armazenados em memória. Para tal armazenamento, pode-se fazer uso de tipos estruturados (*structs*) e/ou de estruturas de dados como *arrays*, *slices* ou mapas.
 
