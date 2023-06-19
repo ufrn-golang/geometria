@@ -50,15 +50,15 @@ As tabelas abaixo apresentam a definição das principais figuras geométricas p
 
 | Figura | Definição | Área | Volume    |
 | ------ | --------- | ---- | --------- |
-| Pirâmide | Figura composta por uma base poligonal (triangular, quadrangular, etc.) e um vértice que une as faces laterais da pirâmide | $`A = area\_base + area\_lateral`$ | $`V = \frac{1}{3}\ \times\  area_base\ \times\ altura`$ |
+| Pirâmide | Figura composta por uma base poligonal (triangular, quadrangular, etc.) e um vértice que une as faces laterais da pirâmide | $`A = area\_base + area\_lateral`$ | $`V = \frac{1}{3}\ \times\  area\_base\ \times\ altura`$ |
 | Cubo | Figura composta por seis faces quadrangulares | $`A = 6\ \times\ aresta^2`$ | $`V = aresta^3`$ |
-| Paralelepípedo | Figura composta por seis faces, tendo três pares de faces idênticas e paralelas entre si | $`A = (2\ \times\ aresta1\ \times\ aresta2) + (2\ \times\ aresta1\ \times\ aresta3) + (2\ \times\ aresta2\ \times\ aresta3)`$ | $`V = aresta1\ \times\ aresta2\ \times\ aresta3`$ |
+| Paralelepípedo | Figura composta por seis faces, tendo três pares de faces idênticas e paralelas entre si | $`A = (2\ \times\ aresta1\ \times\ aresta2)\ +`$<br/>$`(2\ \times\ aresta1\ \times\ aresta3)\ +`$<br/>$`(2\ \times\ aresta2\ \times\ aresta3)`$ | $`V = aresta1\ \times\ aresta2\ \times\ aresta3`$ |
 | Esfera | Figura resultante do conjunto de pontos do espaço cuja distância ao centro é igual ou menor que o raio | $`A = 4\ \times\ \pi\ \times\ r^2`$ | $`V = \frac{4}{3}\ \times\ \pi\ \times\ r^3`$ |
 
 Observações:
 
 - Para este trabalho, deverá ser considerado um triângulo equilátero, no qual os três lados são congruentes.
-- O perímetro de um círculo é chamado de comprimento da circunferência. &pi; é uma constante definida com o valor aproximado de 3,1415 e *r* é a medida do raio do círculo, isto é, a distância entre o centro e a extremidade do círculo.
+- O perímetro de um círculo é chamado de comprimento da circunferência e *r* é a medida do raio do círculo, isto é, a distância entre o centro e a extremidade do círculo.
 - Para este trabalho, deverá ser considerada uma pirâmide com base quadrangular, ou seja, contendo uma base formando um quadrado e quatro faces laterais triangulares.
 - A área lateral de uma pirâmide é dada pela soma das áreas de todas as faces laterais triangulares.
 
