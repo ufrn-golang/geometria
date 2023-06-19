@@ -8,8 +8,8 @@
 - [Introdução](#introdução)
 - [Tarefas](#tarefas)
   - [Tarefa 1: Implementação de pacotes](#tarefa-1-implementação-de-pacotes)
-  - [Tarefa 2](#tarefa-2)
-  - [Tarefa 3](#tarefa-3)
+  - [Tarefa 2: Implementação de testes unitários](#tarefa-2-implementação-de-testes-unitários)
+  - [Tarefa 3: Implementação do programa principal](#tarefa-3-implementação-do-programa-principal)
 - [Requisitos](#requisitos)
 - [Autoria e política de colaboração](#autoria-e-política-de-colaboração)
 - [Entrega](#entrega)
@@ -50,7 +50,7 @@ As tabelas abaixo apresentam a definição das principais figuras geométricas p
 
 | Figura | Definição | Área | Volume    |
 | ------ | --------- | ---- | --------- |
-| Pirâmide | Figura composta por uma base poligonal (triangular, quadrangular, etc.) e um vértice que une as faces laterais da pirâmide | $`A = area_base + area_lateral`$ | $`V = \frac{1}{3}\ \times\  area_base\ \times\ altura`$ |
+| Pirâmide | Figura composta por uma base poligonal (triangular, quadrangular, etc.) e um vértice que une as faces laterais da pirâmide | $`A = area\_base + area\_lateral`$ | $`V = \frac{1}{3}\ \times\  area_base\ \times\ altura`$ |
 | Cubo | Figura composta por seis faces quadrangulares | $`A = 6\ \times\ aresta^2`$ | $`V = aresta^3`$ |
 | Paralelepípedo | Figura composta por seis faces, tendo três pares de faces idênticas e paralelas entre si | $`A = (2\ \times\ aresta1\ \times\ aresta2) + (2\ \times\ aresta1\ \times\ aresta3) + (2\ \times\ aresta2\ \times\ aresta3)`$ | $`V = aresta1\ \times\ aresta2\ \times\ aresta3`$ |
 | Esfera | Figura resultante do conjunto de pontos do espaço cuja distância ao centro é igual ou menor que o raio | $`A = 4\ \times\ \pi\ \times\ r^2`$ | $`V = \frac{4}{3}\ \times\ \pi\ \times\ r^3`$ |
